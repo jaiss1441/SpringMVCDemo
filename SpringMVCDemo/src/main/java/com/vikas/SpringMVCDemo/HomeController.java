@@ -60,7 +60,7 @@ public ModelAndView add(@RequestParam("num1") int num1, @RequestParam("num2") in
     return mv;
 }
 
-@RequestMapping("addAlien")
+@RequestMapping("/SpringMVCDemo/addAlien")
 public String addAlien(Alien alien){
     //using ModelAndView object
     return "result";
